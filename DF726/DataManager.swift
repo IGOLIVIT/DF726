@@ -1,6 +1,5 @@
 //
 //  DataManager.swift
-//  Nebula Flow
 //
 
 import Foundation

@@ -1,12 +1,11 @@
 //
-//  DF726App.swift
-//  Nebula Flow
+//  App.swift
 //
 
 import SwiftUI
 
 @main
-struct DF726App: App {
+struct MainApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

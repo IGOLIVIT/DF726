@@ -1,13 +1,11 @@
 //
 //  MainMenuView.swift
-//  Nebula Flow
 //
 
 import SwiftUI
 
 struct MainMenuView: View {
     @State private var selectedGame: GameType? = nil
-    @State private var showStats = false
     @State private var buttonScale: [Int: CGFloat] = [:]
     
     enum GameType: Identifiable {
@@ -36,7 +34,7 @@ struct MainMenuView: View {
                         Spacer()
                             .frame(height: 60)
                         
-                        // Nebula Core logo
+                        // Logo
                         ZStack {
                             ForEach(0..<2) { index in
                                 Circle()
@@ -121,16 +119,6 @@ struct MainMenuView: View {
                                 selectedGame = .cosmicBalance
                             }
                             
-                            MenuButton(
-                                title: "Nebula Stats",
-                                subtitle: "View progress",
-                                icon: "chart.bar.fill",
-                                color: Color(hex: "00F5FF"),
-                                index: 4,
-                                scale: buttonScale[4] ?? 1.0
-                            ) {
-                                showStats = true
-                            }
                         }
                         .padding(.horizontal, Theme.padding)
                         
@@ -173,12 +161,6 @@ struct MainMenuView: View {
                     EmptyView()
                 }
                 
-                NavigationLink(
-                    destination: StatisticsView(showStats: $showStats),
-                    isActive: $showStats
-                ) {
-                    EmptyView()
-                }
             }
             .navigationBarHidden(true)
         }

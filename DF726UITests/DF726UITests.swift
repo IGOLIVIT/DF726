@@ -1,13 +1,10 @@
 //
-//  DF726UITests.swift
-//  DF726UITests
-//
-//  Created by IGOR on 29/10/2025.
+//  UITests.swift
 //
 
 import XCTest
 
-final class DF726UITests: XCTestCase {
+final class AppUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

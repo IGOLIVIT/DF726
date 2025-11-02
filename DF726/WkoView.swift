@@ -1,8 +1,5 @@
 //
 //  WkoView.swift
-//  DF726
-//
-//  Created by IGOR on 30/10/2025.
 //
 
 import SwiftUI

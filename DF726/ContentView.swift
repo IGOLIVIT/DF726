@@ -1,6 +1,5 @@
 //
 //  ContentView.swift
-//  Nebula Flow
 //
 
 import SwiftUI

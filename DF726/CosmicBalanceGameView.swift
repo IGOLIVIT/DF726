@@ -1,6 +1,5 @@
 //
 //  CosmicBalanceGameView.swift
-//  Nebula Flow
 //
 
 import SwiftUI

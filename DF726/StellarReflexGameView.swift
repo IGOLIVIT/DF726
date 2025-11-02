@@ -1,6 +1,5 @@
 //
 //  StellarReflexGameView.swift
-//  Nebula Flow
 //
 
 import SwiftUI

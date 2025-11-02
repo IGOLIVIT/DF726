@@ -1,13 +1,10 @@
 //
-//  DF726UITestsLaunchTests.swift
-//  DF726UITests
-//
-//  Created by IGOR on 29/10/2025.
+//  UITestsLaunchTests.swift
 //
 
 import XCTest
 
-final class DF726UITestsLaunchTests: XCTestCase {
+final class AppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -1,6 +1,5 @@
 //
 //  SpaceAttackGameView.swift
-//  Nebula Flow
 //
 
 import SwiftUI

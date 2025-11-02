@@ -1,12 +1,11 @@
 //
 //  Theme.swift
-//  Nebula Flow
 //
 
 import SwiftUI
 
 struct Theme {
-    // Color Palette - Mellstroy-inspired
+    // Color Palette
     static let background = Color(hex: "0E0E10")
     static let primaryAccent = Color(hex: "FF003C")
     static let secondaryAccent = Color(hex: "FFD000")
@@ -51,4 +50,5 @@ extension Color {
         )
     }
 }
+
 

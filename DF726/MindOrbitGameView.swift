@@ -1,6 +1,5 @@
 //
 //  MindOrbitGameView.swift
-//  Nebula Flow
 //
 
 import SwiftUI
@@ -212,7 +211,7 @@ struct MindOrbitGameView: View {
         case .input:
             return "Repeat the pattern"
         case .correct:
-            return "Correct! Your nebula brightens."
+            return "Correct! Well done."
         case .wrong:
             return "Incorrect. Try again."
         }

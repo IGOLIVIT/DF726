@@ -1,6 +1,5 @@
 //
 //  OnboardingView.swift
-//  Nebula Flow
 //
 
 import SwiftUI
@@ -27,7 +26,7 @@ struct OnboardingView: View {
             VStack(spacing: 40) {
                 Spacer()
                 
-                // Nebula Core visualization
+                // Visualization
                 ZStack {
                     ForEach(0..<3) { index in
                         Circle()
@@ -86,7 +85,7 @@ struct OnboardingView: View {
                 
                 // Start button
                 if showButton {
-                    GlowingButton(title: "Begin the Flow") {
+                    GlowingButton(title: "Begin") {
                         withAnimation(.easeInOut(duration: 0.5)) {
                             hasCompletedOnboarding = true
                         }
@@ -173,4 +172,5 @@ struct MovingParticle: Identifiable {
     var color: Color
     var opacity: Double
 }
+
 

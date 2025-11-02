@@ -1,6 +1,5 @@
 //
 //  AnimatedBackground.swift
-//  Nebula Flow
 //
 
 import SwiftUI
@@ -31,7 +30,7 @@ struct AnimatedBackground: View {
                     )
             }
             
-            // Nebula gradient overlay
+            // Gradient overlay
             RadialGradient(
                 gradient: Gradient(colors: [
                     Theme.primaryAccent.opacity(0.15),
@@ -144,4 +143,5 @@ struct GlowingButton: View {
         .buttonStyle(PlainButtonStyle())
     }
 }
+
 
